@@ -7,6 +7,8 @@
 
 A demo instance of this application is [running here](https://padscoper.herokuapp.com).
 
+As this is an example application, it currently only contains a handful of hardcoded properties in the SF bay area.
+
 ## Requirements
 * nodejs
 * connectivity to the public internet (so that API calls to Google services can work)
