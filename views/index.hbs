@@ -1,0 +1,48 @@
+<body id="page-top" class="index">
+	{{>navigation}}
+	<header>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					{{!-- This will stack the two Font Awesome icons on top of each other --}}
+					{{!-- @link: http://fontawesome.io/examples/ --}}
+					<span class="fa-stack fa-4x">
+						<i class="fa fa-home fa-stack-2x"></i>
+						<i class="fa fa-search logo fa-stack-1x"></i>
+					</span>
+					<div class="intro-text">
+						<span class="name">PadScoper</span>
+						<span class="skills">A snappy property looker-upper</span>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<form action="/" id="query-form">
+					<div id="search-error" class="alert alert-danger hidden" role="alert">
+						<strong>Oops!</strong> Please enter a valid street address
+					</div>
+					<div class="input-group">
+						<input id="search-input" type="text" class="form-control" placeholder="Please enter a valid address to find properties near you"  />
+						<span class="input-group-btn">
+							<button id="search-button" class="btn btn-primary" type="button"><i class="fa fa-search"></i> Search</button>
+						</span>
+					</div>
+				</form>
+			</div>
+
+			<div id="search-results" class="results">
+
+			</div>
+
+		</div>{{!-- END container --}}
+	</header>
+</body>
+
+{{!-- Load main search handling script --}}
+<script src='/javascripts/padscoper.js'></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoMV9CjX4TqJqQSTC0iWTb6pQLVrLzi-s	
+&callback=googleAPIReady">
+</script>

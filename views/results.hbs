@@ -1,0 +1,16 @@
+<table class="table">
+	<thead>
+		<th>Properties Near You</th>
+	</thead>
+	<tbody>
+		
+		{{#properties}}
+			<tr>
+				<td><img class="img-responsive result-img" src="{{ image_url }}" /></td>
+				<td>{{ address }}</td>
+				<td>{{ state }}</td>
+				<td>{{ zip }}</td>
+			</tr>
+		{{/properties}}
+	</tbody>
+</table>

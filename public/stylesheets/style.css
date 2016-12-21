@@ -1,0 +1,43 @@
+body {
+  background-color: #18BC9C !important;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #2b3e50;
+}
+
+p.lead a {
+	color: #2b3e50;
+}
+
+/* Add a reasonable constraint to the images returned by the backend */
+/* and rendered in the results table, since their dimensions vary wildly */
+img.img-responsive.result-img {
+	max-width: 200px;
+}
+
+/* Pure CSS Logo */
+
+/* Draw a perfect circle with CSS to serve as the background panel of our logo */
+/* For more info on the icon stacking effect, see the markup or: http://fontawesome.io/examples/ */
+.fa-stack {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	background-color: #ADD8E6; 
+	/* In this specific case, the width and heights don't actually matter */
+	/* They just need to have the exact same value */
+	/* @link: https://davidwalsh.name/css-circles */;
+	width: 100px;
+	height: 100px;
+}
+
+/* Make the background home icon the same blue as the Freelancer theme uses */
+i.fa.fa-home {
+	color: #2b3e50;
+}
+
+i.fa.fa-search.logo {
+	color: #1dbc9c;
+}
