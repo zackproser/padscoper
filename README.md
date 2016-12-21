@@ -3,7 +3,9 @@
 ![PadScoper Preview](/public/images/padscoper-splash.png)
 
 ## Overview 
-PadScoper is a node.js app leveraging the [Express framework](https://expressjs.com/) that allows users to look up properties within 20 miles of an address they supply when searching. 
+[PadScoper](https://padscoper.herokuapp.com) is a node.js app leveraging the [Express framework](https://expressjs.com/) that allows users to look up properties within 20 miles of an address they supply when searching. 
+
+A demo instance of this application is [running here](https://padscoper.herokuapp.com).
 
 ## Requirements
 * nodejs
